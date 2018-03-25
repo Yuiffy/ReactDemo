@@ -1,31 +1,32 @@
 .card {
     border: black 1px solid;
-    width: 10vmin;
-    height: 20vmin;
+    width: 8vmin;
+    height: 15vmin;
     display: inline-block;
-    margin-left: 0.5vmin;
-    margin-right: 0.5vmin;
+    margin: 0.5vmin;
 }
 
 .lifeZone {
-    height: 3vmin;
-    font-size: 2vmin;
+    height: 5vmin;
+    font-size: 4vmin;
+    color: gold;
 }
 
 .cardZone {
-    height: 20vmin;
+    min-height: 19vmin;
 }
 
 .playerZone {
     margin-top: 1vmin;
     margin-bottom: 1vmin;
     border: gray 1px solid;
+    background-color: aliceblue;
 }
 
 .publicZone {
     margin-top: 5vmin;
     margin-bottom: 5vmin;
-    height: 22vmin;
+    height: 23vmin;
 }
 
 .gameBoard {
@@ -43,6 +44,10 @@
     width: 15vmin;
     height: 5vmin;
     font-size: 3vmin;
+}
+
+.tips{
+    font-size: 2vmin;
 }
 
 /*下面是舊的*/

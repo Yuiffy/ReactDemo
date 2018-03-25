@@ -70,7 +70,7 @@ class PlayerZone extends Component {
                             </div>
                             <div className="lifeZone">
                                 {
-                                    Array.from(Array(life), () => '☆').map((item) => (
+                                    Array.from(Array(life), () => '★').map((item) => (
                                         <span>{item}</span>
                                     ))
                                 }

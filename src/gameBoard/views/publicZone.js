@@ -8,8 +8,8 @@ import {FilterTypes} from '../../constants.js';
 
 const PublicZone = ({showCards, allReady, showHand, isShow, roundEnd}) => {
     return (
-        <ul className="publicZone">
-            <div className="cards">
+        <div className="publicZone">
+            <div className="cardZone">
                 {
                     showCards.map((item) => (
                         <CardItem
@@ -20,11 +20,9 @@ const PublicZone = ({showCards, allReady, showHand, isShow, roundEnd}) => {
                     ))
                 }
             </div>
-            <div>
-                {allReady && !isShow ? <button className="button" onClick={showHand}>翻牌</button> : null}
-                {allReady && isShow ? <button  className="button" onClick={roundEnd}>结算</button> : null}
-            </div>
-        </ul>
+            {allReady && !isShow ? <button className="button" onClick={showHand}>翻牌</button> : <span></span>}
+            {allReady && isShow ? <button className="button" onClick={roundEnd}>结算</button> : <span></span>}
+        </div>
     );
 };
 
