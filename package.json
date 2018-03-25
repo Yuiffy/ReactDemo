@@ -19,5 +19,5 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "homepage": "https://github.com/yuiffy/ReactDemo"
+  "homepage": "https://www.yuiffy.com/reactGame"
 }
